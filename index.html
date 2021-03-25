@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="container"> 
+    <form action="" class="form">
+        <input  id = 'input' type="text" placeholder="Название дела">
+    </form>
+    <div id="container" calss="btn_holder">
+        <button id = "btnStart" type="submit">Add to start</button>
+        <button id = "btnEnd" type="submit">Add to end</button>
+        <button id = "btnRemove" type="submit">Remove</button>
+        <button id = "btnSort" type="submit">Sort</button>
+    </div>
+    </div>
+    
+    <h1>Задачи на день</h1>
+    <ul id="ul">
+        <li>Сходить в магазин</li>
+        <li>Проситать книгу</li>
+        <li>Позвонить другу</li>
+        <li>Поработать</li>
+        <li>Принять гостей</li>
+    </ul>
+
+    <div id="menu">
+        <button data-action="save">Сохранить</button>
+        <button data-action="load">Загрузить</button>
+        <button data-action="search">Поиск</button>
+</div>
+</body>
+</html>
